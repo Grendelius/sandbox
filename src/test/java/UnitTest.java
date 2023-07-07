@@ -16,12 +16,12 @@ public class UnitTest {
 
     @Test
     public void multipleIsCorrect() {
-        assert calculator.minus(1, 2) == 2;
+        assert calculator.multiple(1, 2) == 2;
     }
 
     @Test
     public void multipleIsCorrectForNegative() {
-        assert calculator.minus(-1, -2) == -2;
+        assert calculator.multiple(-1, -2) == -2;
     }
 
 }
