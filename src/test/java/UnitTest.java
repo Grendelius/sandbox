@@ -21,7 +21,7 @@ public class UnitTest {
 
     @Test
     public void multipleIsCorrectForNegative() {
-        assert calculator.multiple(-1, -2) == -2;
+        assert calculator.multiple(-1, -2) == 2;
     }
 
 }
